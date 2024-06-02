@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 15px;
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.active {
+    font-weight: 800;
+}
+
+.active .icon svg path {
+    stroke-width: 2px;
+}

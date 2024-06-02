@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    width: 280px;
+    padding: 32px 16px;
+}
+
+  
+@media (max-width: 768px) {
+    .container {
+        display: none;
+    }
+}

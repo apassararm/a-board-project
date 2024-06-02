@@ -1,0 +1,158 @@
+.container {
+    min-width: 798px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 35px 144px 35px 144px;
+    padding-right: 321px;
+}
+
+
+.backContainer {
+    margin-bottom: 40px;
+}
+
+
+.backBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #e0f2f1;
+    cursor: pointer;
+}
+
+
+.blogContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogContent {
+    margin-bottom: 24px;
+}
+
+.blogUser {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.userName {
+    font-size: 14px;
+    color: var(--text);
+}
+
+.createdDate {
+    font-size: 12px;
+    color: var(--grey-300);
+}
+
+.blogTag {
+    width: fit-content;
+    height: 24px;
+    padding: 4px 8px;
+    background-color: var(--tag-bg);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.blogTag label {
+    color: var(--tag-text);
+    font-size: 12px;
+}
+
+.blogDetail {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    gap: 16px;
+}
+
+.blogDetail h1 {
+    font-size: 28px;
+    color: var(--text-dp);
+}
+
+.blogDetail p {
+    font-size: 12px;
+    color: var(--text-dp);
+}
+
+.blogComment {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 33px;
+}
+
+.blogComment label {
+    font-size: 12px;
+    color: var(--grey-300);
+}
+
+.commentBtn {
+    background-color: white;
+    padding: 10px 29px;
+    color: var(--success);
+    border-radius: 8px;
+    border: 1px solid var(--success);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.commentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.textArea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.commentBtnContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    margin-top: 10px;
+}
+.commentBtnContainer button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.cancelBtn {
+    background-color: #f0f0f0;
+    color: #000;
+}
+.postBtn {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.commentSection {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.commentDetail p {
+    font-size: 12px;
+    color: var(--text);
+}

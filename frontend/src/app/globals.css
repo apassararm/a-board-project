@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&display=swap');
+
+
+:root {
+  --green-500: #243831;
+  --green-300: #2B5F44;
+  --green-100: #D8E9E4;
+  --golden: #C5A365;
+  --text: #191919;
+  --text-dp: #101828;
+  --grey-100: #BBC2C0;
+  --grey-300: #939494;
+  --success: #49A569;
+  --tag-bg: #F3F3F3;
+  --tag-text: #4A4A4A;
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: var(--grey-100);
+  color: var(--green-500);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.castoro-regular {
+  font-family: "Castoro", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.castoro-regular-italic {
+  font-family: "Castoro", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.inter-semibold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.inter-extrabold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.ibm-plex-sans-semibold {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-sans-regular {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.main-container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: 100vh;
+}
+
+
