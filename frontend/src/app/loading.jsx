@@ -1,10 +1,13 @@
+import styles from './loading.module.css'
 
 const Loading = () => {
-    return (
-      <div>
-          <div>Loading</div>
+  return (
+    <div className={styles.container}>
+      <div className={styles.progress}>
+        <div className={styles.color}></div>
       </div>
-    )
-  }
-  
-export default Loading
+    </div>
+  );
+};
+
+export default Loading;

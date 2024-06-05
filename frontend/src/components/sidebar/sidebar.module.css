@@ -4,8 +4,21 @@
     padding: 32px 16px;
 }
 
+
+
+@media screen and (max-width: 1225px) {
+    .container {
+        width: 20%;
+      }
+}
+
+@media screen and (max-width: 970px) {
+    .container {
+        width: 15%;
+      }
+}
   
-@media (max-width: 768px) {
+@media (max-width: 880px) {
     .container {
         display: none;
     }

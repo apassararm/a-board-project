@@ -1,0 +1,98 @@
+.mobileMenuContainer {
+    z-index: 1050;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menuButton {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.menuContent {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--green-500);
+    width: 50%;
+    height: 100%;
+    border-radius: 12px 0px 0px 12px;
+    padding: 32px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menuContent.open {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuBack {
+    margin-bottom: 30px;
+}
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    padding-left: 33px;
+}
+
+.menuItem:last-child {
+    border-bottom: none;
+}
+
+.menuItem:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.active {
+    font-weight: 800;
+}
+
+.menuItem.active svg path {
+    stroke-width: 2px;
+}
+
+
+.signin {
+    margin-top: 30px;
+    background-color: var(--success);
+    padding: 10px 29px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    justify-self: end;
+}
+
+
+.signout {
+    margin-top: 30px;
+    background-color: var(--critical);
+    padding: 10px 29px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    justify-self: end;
+}
+
+
+@media screen and (max-width: 425px) {
+    .menuContent {
+        width: 70%;
+    }
+}

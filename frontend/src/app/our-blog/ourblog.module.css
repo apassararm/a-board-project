@@ -106,7 +106,7 @@
 
 .selectDropdown .option.selected::after {
   content: '✓';
-
+  
   float: right;
 }
 
@@ -146,6 +146,7 @@
   border: 0.5px solid var(--grey-100);
   padding: 20px;
   cursor: pointer;
+  position: relative;
 }
 
 .blogCard:first-of-type {
@@ -156,6 +157,16 @@
 .blogCard:last-of-type {
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
+}
+
+.blogAction {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .blogUser {
@@ -221,6 +232,8 @@
   font-size: 12px;
   color: var(--grey-300);
 }
+
+
 
 @media screen and (max-width: 1440px) {
 
@@ -442,4 +455,3 @@
   }
 
 }
-

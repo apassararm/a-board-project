@@ -1,0 +1,83 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1060;
+}
+
+.modal {
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px 24px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.modal h2 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.modal p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.modalButtons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.cancelBtn {
+  max-width: 170px;
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid var(--grey-bd);
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+  color: var(--grey-text);
+}
+
+.deleteBtn {
+  max-width: 170px;
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: var(--critical);
+  color: white;
+}
+
+@media screen and (max-width: 650px) {
+  .modalOverlay {
+      padding: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .modal {
+    padding: 30px 16px;
+  }
+
+  .modalButtons {
+      flex-direction: column-reverse;
+  }
+
+  .cancelBtn,
+  .deleteBtn {
+    max-width: none;
+  }
+  
+}
